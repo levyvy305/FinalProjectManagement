@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Sora", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  min-height: 100vh;
+  background: url(./assets/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}

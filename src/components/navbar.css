@@ -1,0 +1,84 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #fff;
+  user-select: none;
+}
+
+.logo ion-icon {
+  margin-left: 5px;
+  align-items: center;
+}
+
+.navbar-1 a {
+  position: relative;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.navbar-2 a {
+  position: relative;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navbar-1 a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.navbar-1 a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.navbar-2 .btn-popup,
+icon-icon {
+  width: 125px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1.7em;
+  color: #fff;
+  font-weight: 500;
+  align-items: center;
+}
+
+.navbar-2 .btn-popup:hover {
+  background: #fff;
+  color: #162938;
+}
+
+.Dropdown.Item {
+  display: flex;
+  flex-direction: column;
+}
